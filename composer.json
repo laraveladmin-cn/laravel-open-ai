@@ -1,0 +1,28 @@
+{
+  "name": "laraveladmin/laravel-open-ai",
+  "description": "laravel project based on orhanerday/open-ai",
+  "minimum-stability": "master",
+  "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LaravelAdmin\\LaravelOpenAi\\": "src/"
+        }
+    },
+  "authors": [
+    {
+      "name": "zhangshiping",
+      "email": "pay@laraveladmin.cn"
+    }
+  ],
+  "require": {
+      "laravel/framework": ">=5.6",
+      "orhanerday/open-ai": ">=4.7"
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelAdmin\\LaravelOpenAi\\ServiceProvider"
+            ]
+        }
+    }
+}
