@@ -1,7 +1,7 @@
 {
   "name": "laraveladmin/laravel-open-ai",
   "description": "laravel project based on orhanerday/open-ai",
-  "minimum-stability": "master",
+  "minimum-stability": "stable",
   "license": "MIT",
     "autoload": {
         "psr-4": {
